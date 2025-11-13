@@ -23,15 +23,15 @@ def char_count(s):
 
     return dict_count
 
-'''
-    time complexity: O(n)
-    space complexity: O(n)
-'''
 
-# test
+# Test
 print(is_anagram('restful', 'setrluf'))         #--> True
 print(is_anagram('cats', 'tocs'))               #--> False
 print(is_anagram("astronomer", "moonstarer"))   #--> True
 
-
+# Complexity
+'''
+    time complexity: O(n)
+    space complexity: O(n)
+'''
 

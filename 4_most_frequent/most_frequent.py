@@ -26,14 +26,15 @@ def char_count(s):
     return dict_count
 
 
-'''
-    time complexity: O(n)
-    space complexity: O(n)
-'''
-
-
-# test
+# Test
 print(most_frequent_letter('potatoe'))   # --> 'o'
 print(most_frequent_letter('bookeeper')) # --> 'e'
 print(most_frequent_letter('david'))     # --> 'd'
 print(most_frequent_letter('abby'))      # --> 'b'
+
+
+# Complexity
+'''
+    time complexity: O(n)
+    space complexity: O(n)
+'''

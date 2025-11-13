@@ -18,9 +18,14 @@ def is_prime(num):
             return False
     return True
 
+# Tests
+print(is_prime(64)) # --> False
+print(is_prime(13)) # --> True
+print(is_prime(5))  # --> True
+print(is_prime(21)) # --> False
+
+# Complexity
 '''
     time complexity: O(sqrt(n))
     space complexity: O(1)
 '''
-
-print(is_prime(64))

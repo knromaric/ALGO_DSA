@@ -10,11 +10,13 @@ def max_value(numbers):
             maximum = num
     return maximum
 
+
+# Test
+numbers = [3, 5, 7, 3, 9, 2, 1]
+print(max_value(numbers)) # --> 9
+
+# Complexity
 '''
     time complexity: O(n)
     space complexity: O(1)
 '''
-
-
-numbers = [3, 5, 7,3, 9, 2, 1]
-print(max_value(numbers))
