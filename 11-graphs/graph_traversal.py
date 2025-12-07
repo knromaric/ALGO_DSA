@@ -44,7 +44,7 @@ depth_first_print_recursive(graph, "a")
 
 
 print()
-print("Breadth first method ----------------------------------")
+print("Breadth first method --------------------------------")
 breadth_first_print(graph, "a")
 # print()
 # depth_first_print_recursive(graph, "a")
